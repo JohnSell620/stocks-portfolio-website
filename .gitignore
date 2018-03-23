@@ -1,0 +1,7 @@
+*.off
+select
+/node
+*.map
+!react/
+react/node_modules
+react/data
