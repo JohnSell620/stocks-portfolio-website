@@ -32,6 +32,7 @@ require_once('../includes/helper.php');
 </script>
 <br />
 
+<div style="display: inline-block; max-width: 300px"
 <form method="POST" action="quote">
   <input placeholder="Symbol" type="text" name="param" />
 	<input type="submit" value="Get Quote" />
@@ -39,7 +40,7 @@ require_once('../includes/helper.php');
 
 <h1>Balance: <?php echo $balance ?></h1>
 
-<div>
+<!-- <div> -->
 
   <table>
     <tr>
@@ -67,9 +68,8 @@ require_once('../includes/helper.php');
   </form>
 
 </div>
-<div class="">
 
-</div>
+<br />
 
 
 <?php

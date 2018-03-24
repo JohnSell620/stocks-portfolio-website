@@ -4,17 +4,18 @@ render('header', array('title' => 'C$75 Finance'));
 ?>
 
 <br />
-<form method="POST" action="quote">
-  <input placeholder="Symbol" type="text" name="param" />
-	<input type="submit" value="Get Quote" />
-</form>
+<div class="container">
+  <form method="POST" action="quote">
+    <input placeholder="Symbol" type="text" name="param" />
+  	<input type="submit" value="Get Quote" />
+  </form>
+  <ul>
+  	<li><a href="portfolio">View Portfolio</a></li>
+    	<li><a href="sell">Sell Stock</a></li>
+  </ul>
+</div>
 
-<ul>
-	<li><a href="portfolio">View Portfolio</a></li>
-  	<li><a href="sell">Sell Stock</a></li>
-</ul>
-
-<div style="display: inline-block" id="root"></div>
+<div id="root" class="chart"></div>
 
 <?php
 render('footer');

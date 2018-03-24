@@ -31,7 +31,7 @@
     </script>
 </head>
 <body>
-
+<div class="container">
 <form method="POST" action="login" onsubmit="return validateForm();">
     E-mail address: <input type="text" name="email" /><br />
     Password: <input type="password" name="password" /><br />
@@ -49,7 +49,7 @@
 		Last name: <input type="text" name="last_name" /><br />
 	<input type="submit" value="Register" />
 </form>
-
+</div>
 
 <?php
 render('footer');

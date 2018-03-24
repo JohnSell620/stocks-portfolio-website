@@ -1,0 +1,25 @@
+body {
+  width: 2000px;
+  margin: 0 auto;
+}
+div.container {
+	display: inline-block;
+	max-width: 440px;
+}
+div.chart {
+	display: inline-block;
+  width: 1200px;
+  vertical-align: top;
+}
+div#root main.grey div.row div[class="col s12 m3"] {
+  width: 700px;
+}
+div#root main.grey div[class="col s12 m3"] ul.collapsible li {
+  width: 300px;
+  margin: 0;
+  display: inline;
+  float: left;
+}
+div#root div footer.grey div.container div[class="co s6"] h6 {
+  width: 600px;
+}

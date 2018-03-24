@@ -1,7 +1,11 @@
 *.off
+*.woff
+*.txt
 select
 /node
 *.map
 !react/
 react/node_modules
 react/data
+!react/src
+react/src/app_create.bundle.js

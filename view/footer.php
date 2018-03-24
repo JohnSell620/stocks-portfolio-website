@@ -1,3 +1,5 @@
-    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
-    </body>
+  <script src="https://unpkg.com/react@15.6.1/dist/react.js"></script>
+  <script src="https://unpkg.com/react-dom@15.6.1/dist/react-dom.js"></script>
+  <script src="app_create.bundle.js"></script>
+  </body>
 </html>
