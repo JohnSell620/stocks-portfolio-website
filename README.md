@@ -1,7 +1,7 @@
-##Stock Trading Website
-In this project I integrated a React component within an existing php site.
+# Stock Trading Website #
+Integrating React components with existing site. Originally project for CS 75 Building Dynamic Websites, Harvard Extension School.
 
-![Alt text](./stksite.png?raw=true "Stock Portfolio Site")
+![Alt text](./images/stksite.png?raw=true "Stock Portfolio Site")
 
 
 
