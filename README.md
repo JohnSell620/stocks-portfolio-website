@@ -1,7 +1,8 @@
 # Stock Trading Website #
 Integrating React components with existing site. Originally project for CS 75 Building Dynamic Websites, Harvard Extension School.
 
-![Alt text](./public_html/images/stksite.png?raw=true "Stock Portfolio Site")
+![Alt text](./public_html/images/stksitesz1.png?raw=true "Stock Portfolio Site")
+![Alt text](./public_html/images/stksitesz2.png?raw=true "Stock Portfolio Site")
 
 
 
