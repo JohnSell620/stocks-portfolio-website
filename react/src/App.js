@@ -17,26 +17,26 @@ class App extends Component {
 	}
 
   getData() {
-    // fetch('https://www.quandl.com/api/v3/datasets/WIKI/GOOG/data.json', {
-    //   method: 'GET',
-    //   headers: {
-    //     Accept: 'application/json',
-    //   },
-    // })
-    // .then((response) => response.json())
-    // .then((data) => {
-    //   let counter = [];
-    //   counter.push(data);
-    //   this.setState({stocks: counter});
-    // })
-    // .catch((error) => {
-    //   console.error(error);
-    // });
+    fetch('https://www.quandl.com/api/v3/datasets/WIKI/GOOG/data.json', {
+      method: 'GET',
+      headers: {
+        Accept: 'application/json',
+      },
+    })
+    .then((response) => response.json())
+    .then((data) => {
+      let counter = [];
+      counter.push(data);
+      this.setState({stocks: counter});
+    })
+    .catch((error) => {
+      console.error(error);
+    });
 
-    var data = require('../data/data.json');
-    let counter = [];
-    counter.push(data);
-    this.setState({stocks: counter});
+    // var data = require('../data/data.json');
+    // let counter = [];
+    // counter.push(data);
+    // this.setState({stocks: counter});
 
     var stkdat = require('../data/stocks.json')
     let lcounter = [];
