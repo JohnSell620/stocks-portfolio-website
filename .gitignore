@@ -3,6 +3,7 @@
 *.txt
 select
 /node
+*.bundle.js
 *.map
 !react/
 react/node_modules
